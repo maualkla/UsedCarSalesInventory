@@ -1,5 +1,6 @@
 class DealershipsController < ApplicationController
   before_action :set_dealership, only: %i[ show edit update destroy ]
+  skip_before_action :authorized
 
   # GET /dealerships or /dealerships.json
   def index

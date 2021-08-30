@@ -1,0 +1,9 @@
+<div>
+	<h1>Welcome To Users Car Sales Inventory</h1>
+	<% if logged_in? %>
+    <h3>You are Logged In, <%= current_user.alias %></h3>
+	<% else %> 
+	<%= button_to "Login", '/login', method: :get%>
+	<%= button_to "Sign Up", '/users/new', method: :get%>
+	<%end%>
+</div>
