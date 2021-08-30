@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @dealership.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @dealership.address %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @dealership.phone %>
+</p>
+
+<p>
+  <strong>Webpage:</strong>
+  <%= @dealership.webpage %>
+</p>
+
+<%= link_to 'Edit', edit_dealership_path(@dealership) %> |
+<%= link_to 'Back', dealerships_path %>

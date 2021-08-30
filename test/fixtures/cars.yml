@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  model: MyString
+  dealership: 1
+  price: 9.99
+  is_new: false
+
+two:
+  model: MyString
+  dealership: 1
+  price: 9.99
+  is_new: false
